@@ -16,22 +16,22 @@ export const injectGlobalStyles = () => css`
 
   @font-face {
     font-family: 'inter-regular';
-    src: url('https://slate.textile.io/ipfs/bafkreic3hkcuwvrmf6trweqcjp62valsfjh3zvwacikoreynakgw67wrvy');
+    src: url('${Constants.gateways.ipfs}/bafkreic3hkcuwvrmf6trweqcjp62valsfjh3zvwacikoreynakgw67wrvy');
   }
 
   @font-face {
     font-family: 'inter-semi-bold';
-    src: url('https://slate.textile.io/ipfs/bafkreiaezvuz6wawoqyntfl4gbprol3e7majovgof3uxvhilvd2pgk4w54');
+    src: url('${Constants.gateways.ipfs}/bafkreiaezvuz6wawoqyntfl4gbprol3e7majovgof3uxvhilvd2pgk4w54');
   }
 
   @font-face {
     font-family: 'inter-bold';
-    src: url('https://slate.textile.io/ipfs/bafybeigljfbymd52vnrie6qkcy4u4kplsz4yen2idpizhr3dvrgy7kufaq');
+    src: url('${Constants.gateways.ipfs}/bafybeigljfbymd52vnrie6qkcy4u4kplsz4yen2idpizhr3dvrgy7kufaq');
   }
 
   @font-face {
     font-family: 'inter-medium';
-    src: url('https://slate.textile.io/ipfs/bafkreiapyxmqjwoowqpek2cjocouzxoalwlzwwbv3dscug3e5l2ok7xmqe');
+    src: url('${Constants.gateways.ipfs}/bafkreiapyxmqjwoowqpek2cjocouzxoalwlzwwbv3dscug3e5l2ok7xmqe');
   }
 
   @font-face {

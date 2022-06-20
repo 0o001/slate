@@ -12,8 +12,7 @@ import WebsitePrototypeHeader from "~/components/core/WebsitePrototypeHeader";
 import WebsitePrototypeFooter from "~/components/core/WebsitePrototypeFooter";
 import CTATransition from "~/components/core/CTATransition";
 
-const DEFAULT_IMAGE =
-  "https://slate.textile.io/ipfs/bafkreiaow45dlq5xaydaeqocdxvffudibrzh2c6qandpqkb6t3ahbvh6re";
+const DEFAULT_IMAGE = `${Constants.gateways.ipfs}/bafkreiaow45dlq5xaydaeqocdxvffudibrzh2c6qandpqkb6t3ahbvh6re`;
 
 export const getServerSideProps = async (context) => {
   return {
@@ -56,9 +55,9 @@ export default class ProfilePage extends React.Component {
   //   };
 
   render() {
-    const isMobile = this.props.isMobile;
+    const { isMobile } = this.props;
 
-    const viewer = this.props.viewer;
+    const { viewer } = this.props;
     const file = this.props.data;
     const { filename: title, body: description } = this.props.data;
     // const title = this.props.data

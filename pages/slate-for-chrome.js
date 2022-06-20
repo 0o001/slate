@@ -151,8 +151,7 @@ export default class SlateForChromePage extends React.Component {
     const title = `Slate for Chrome`;
     const description = "Upload images to Slate from anywhere on the web";
     const url = "https://slate.host/slate-for-chrome";
-    const image =
-      "https://slate.textile.io/ipfs/bafybeidi6z774yoge5uowzwkdrrnrzi5bzqgzrwfizw4dg4xdjxfjoa5ei";
+    const image = `${Constants.gateways.ipfs}/bafybeidi6z774yoge5uowzwkdrrnrzi5bzqgzrwfizw4dg4xdjxfjoa5ei`;
 
     return (
       <WebsitePrototypeWrapper title={title} description={description} url={url} image={image}>
@@ -167,12 +166,12 @@ export default class SlateForChromePage extends React.Component {
             <a css={STYLES_BUTTON_PRIMARY_BIG_HERO}>Get Slate for Chrome</a>
             <img
               css={STYLES_IMG_HERO}
-              src="https://slate.textile.io/ipfs/bafybeihsrxgjk5ax4wzbnfnq2kyg4djylrvpsbzrhitvnmcjixupbk5qjm"
+              src={`${Constants.gateways.ipfs}/bafybeihsrxgjk5ax4wzbnfnq2kyg4djylrvpsbzrhitvnmcjixupbk5qjm`}
             />
             <img
               css={STYLES_FEATURE_IMG}
               style={{ margin: "-50% auto 48px auto" }}
-              src="https://slate.textile.io/ipfs/bafkreidm2ffwdjgk5j5w4ja2p7fjrflfeldyhak2qigkpatvhazc5rsvda"
+              src={`${Constants.gateways.ipfs}/bafkreidm2ffwdjgk5j5w4ja2p7fjrflfeldyhak2qigkpatvhazc5rsvda`}
             />
           </div>
         </div>
