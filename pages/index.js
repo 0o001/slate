@@ -19,20 +19,17 @@ const INTEGRATION = [
   {
     title: "Chrome",
     body: "Connect to your browser history and bookmarks.",
-    logo:
-      "https://slate.textile.io/ipfs/bafkreiamdcnqxcga7dj4fur7nqd57pbey7s6znnj4o2zpbkmsydp6rspdy",
+    logo: "https://slate.textile.io/ipfs/bafkreiamdcnqxcga7dj4fur7nqd57pbey7s6znnj4o2zpbkmsydp6rspdy",
   },
   {
     title: "Twitter",
     body: "Search your twitter bookmarks.",
-    logo:
-      "https://slate.textile.io/ipfs/bafkreihtujowfnffw5jxvdo7gqazo4oy3q3q4u4z2jflx5ygmpaj7pgtnu",
+    logo: "https://slate.textile.io/ipfs/bafkreihtujowfnffw5jxvdo7gqazo4oy3q3q4u4z2jflx5ygmpaj7pgtnu",
   },
   {
     title: "MetaMask",
     body: "Keep all of your NFTs in one place.",
-    logo:
-      "https://slate.textile.io/ipfs/bafkreiecbn5pjuebdelsehul6sqmxs5kk74mijmo6ybts3hfg5tr2p4rti",
+    logo: "https://slate.textile.io/ipfs/bafkreiecbn5pjuebdelsehul6sqmxs5kk74mijmo6ybts3hfg5tr2p4rti",
   },
   {
     title: "And more later",
@@ -43,121 +40,90 @@ const INTEGRATION = [
 const FAQ = [
   {
     title: "What makes Slate different from other bookmarking / storage tools?",
-    text:
-      "Slate is designed to automatically save and organize things for you to help you remember things and explore things you care about in an entirely new way.",
+    text: "Slate is designed to automatically save and organize things for you to help you remember things and explore things you care about in an entirely new way.",
   },
   {
     title: "Is my data safe / private?",
-    text:
-      "Short answer — yes. We use all the industry standards to protect your data and ensure that you have complete control over who is able to see anything in your account. We do not sell and never will sell your data to any third-party.",
+    text: "Short answer — yes. We use all the industry standards to protect your data and ensure that you have complete control over who is able to see anything in your account. We do not sell and never will sell your data to any third-party.",
   },
   {
     title: "How much does Slate cost?",
-    text:
-      "Slate is free for everyone to use. We plan on adding premium tools and functionality to enhance your internet experience some time in 2022. ",
+    text: "Slate is free for everyone to use. We plan on adding premium tools and functionality to enhance your internet experience some time in 2022. ",
   },
 ];
 
 const BANNER = [
   {
-    link:
-      "https://slate.host/tara/neon-genesis-evangelion?cid=bafybeib2zzeknjmih25wivzogzupd7atrdbaxpvmsxfgutrqymlyfc2dvi",
+    link: "https://slate.host/tara/neon-genesis-evangelion?cid=bafybeib2zzeknjmih25wivzogzupd7atrdbaxpvmsxfgutrqymlyfc2dvi",
     name: "@tara",
-    img:
-      "https://slate.textile.io/ipfs/bafybeib2zzeknjmih25wivzogzupd7atrdbaxpvmsxfgutrqymlyfc2dvi",
+    img: "https://slate.textile.io/ipfs/bafybeib2zzeknjmih25wivzogzupd7atrdbaxpvmsxfgutrqymlyfc2dvi",
   },
   {
-    link:
-      "https://slate.host/biodivlibrary/the-mushroom-book?cid=bafybeigph7tfup3wb3truahl7sycaywx3unwa365jk4assrjjlzv6d7x3a",
+    link: "https://slate.host/biodivlibrary/the-mushroom-book?cid=bafybeigph7tfup3wb3truahl7sycaywx3unwa365jk4assrjjlzv6d7x3a",
     name: "@biodivlibrary",
-    img:
-      "https://slate.textile.io/ipfs/bafybeigph7tfup3wb3truahl7sycaywx3unwa365jk4assrjjlzv6d7x3a",
+    img: "https://slate.textile.io/ipfs/bafybeigph7tfup3wb3truahl7sycaywx3unwa365jk4assrjjlzv6d7x3a",
   },
   {
-    link:
-      "https://slate.host/jin/cryptovoxels-history?cid=bafybeiafrj3erh3rfqux4zqc7u2px3veqdppbtizq26p443utxunrkgonu",
+    link: "https://slate.host/jin/cryptovoxels-history?cid=bafybeiafrj3erh3rfqux4zqc7u2px3veqdppbtizq26p443utxunrkgonu",
     name: "@jin",
-    img:
-      "https://slate.textile.io/ipfs/bafybeiafrj3erh3rfqux4zqc7u2px3veqdppbtizq26p443utxunrkgonu",
+    img: "https://slate.textile.io/ipfs/bafybeiafrj3erh3rfqux4zqc7u2px3veqdppbtizq26p443utxunrkgonu",
   },
   {
-    link:
-      "https://slate.host/ng/numero?cid=bafybeibhhfgc4amvymoblaxcoe6glyyvaxhylzisl4ib2itcbhn3mrviou",
+    link: "https://slate.host/ng/numero?cid=bafybeibhhfgc4amvymoblaxcoe6glyyvaxhylzisl4ib2itcbhn3mrviou",
     name: "@ng",
-    img:
-      "https://slate.textile.io/ipfs/bafybeibhhfgc4amvymoblaxcoe6glyyvaxhylzisl4ib2itcbhn3mrviou",
+    img: "https://slate.textile.io/ipfs/bafybeibhhfgc4amvymoblaxcoe6glyyvaxhylzisl4ib2itcbhn3mrviou",
   },
   {
-    link:
-      "https://slate.host/thesimpsons/clips?cid=bafybeigce5klzr3vgzmlathvepuzhzhmwjc6bbvmsmcvu5eyisy6mnkx34",
+    link: "https://slate.host/thesimpsons/clips?cid=bafybeigce5klzr3vgzmlathvepuzhzhmwjc6bbvmsmcvu5eyisy6mnkx34",
     name: "@thesimpsons",
-    img:
-      "https://slate.textile.io/ipfs/bafybeigce5klzr3vgzmlathvepuzhzhmwjc6bbvmsmcvu5eyisy6mnkx34",
+    img: "https://slate.textile.io/ipfs/bafybeigce5klzr3vgzmlathvepuzhzhmwjc6bbvmsmcvu5eyisy6mnkx34",
   },
 
   {
-    link:
-      "https://slate.host/bitgraves/september?cid=bafybeiclkru6hwzw2ghvsyrbnaf67taxxhq2hbpcia2oqj5ufdggwhcbti",
+    link: "https://slate.host/bitgraves/september?cid=bafybeiclkru6hwzw2ghvsyrbnaf67taxxhq2hbpcia2oqj5ufdggwhcbti",
     name: "@bitgraves",
-    img:
-      "https://slate.textile.io/ipfs/bafybeiclkru6hwzw2ghvsyrbnaf67taxxhq2hbpcia2oqj5ufdggwhcbti",
+    img: "https://slate.textile.io/ipfs/bafybeiclkru6hwzw2ghvsyrbnaf67taxxhq2hbpcia2oqj5ufdggwhcbti",
   },
   {
-    link:
-      "https://slate.host/nypl/japan-kimbei-kusakabe?cid=bafkreidqz6imwffq5hpkacmxnrffagzxx5usybpitt42yuzthe6uf4idlm",
+    link: "https://slate.host/nypl/japan-kimbei-kusakabe?cid=bafkreidqz6imwffq5hpkacmxnrffagzxx5usybpitt42yuzthe6uf4idlm",
     name: "@nypl",
-    img:
-      "https://slate.textile.io/ipfs/bafkreidqz6imwffq5hpkacmxnrffagzxx5usybpitt42yuzthe6uf4idlm",
+    img: "https://slate.textile.io/ipfs/bafkreidqz6imwffq5hpkacmxnrffagzxx5usybpitt42yuzthe6uf4idlm",
   },
   {
-    link:
-      "https://slate.host/atlas/cartography?cid=bafybeid2n55qb4thosrxlszhzi3nwiorswv7xi2d5ykbudp3ph5hc54baa",
+    link: "https://slate.host/atlas/cartography?cid=bafybeid2n55qb4thosrxlszhzi3nwiorswv7xi2d5ykbudp3ph5hc54baa",
     name: "@atlas",
-    img:
-      "https://slate.textile.io/ipfs/bafybeid2n55qb4thosrxlszhzi3nwiorswv7xi2d5ykbudp3ph5hc54baa",
+    img: "https://slate.textile.io/ipfs/bafybeid2n55qb4thosrxlszhzi3nwiorswv7xi2d5ykbudp3ph5hc54baa",
   },
   {
-    link:
-      "https://slate.host/museosabiertos/palais-de-glace-fotografia?cid=bafybeigrznzuqymmfligf6mhc7adh6r7iw5gotbrzstcqeyyybaklfguki",
+    link: "https://slate.host/museosabiertos/palais-de-glace-fotografia?cid=bafybeigrznzuqymmfligf6mhc7adh6r7iw5gotbrzstcqeyyybaklfguki",
     name: "@museosabiertos",
-    img:
-      "https://slate.textile.io/ipfs/bafybeigrznzuqymmfligf6mhc7adh6r7iw5gotbrzstcqeyyybaklfguki",
+    img: "https://slate.textile.io/ipfs/bafybeigrznzuqymmfligf6mhc7adh6r7iw5gotbrzstcqeyyybaklfguki",
   },
   {
-    link:
-      "https://slate.host/gndclouds/animation?cid=bafybeigh44l3uzsgv4hslpruxrr5s43olpj5llptmsafkemxbwlu4fbdc4",
+    link: "https://slate.host/gndclouds/animation?cid=bafybeigh44l3uzsgv4hslpruxrr5s43olpj5llptmsafkemxbwlu4fbdc4",
     name: "@gndclouds",
-    img:
-      "https://slate.textile.io/ipfs/bafybeigh44l3uzsgv4hslpruxrr5s43olpj5llptmsafkemxbwlu4fbdc4",
+    img: "https://slate.textile.io/ipfs/bafybeigh44l3uzsgv4hslpruxrr5s43olpj5llptmsafkemxbwlu4fbdc4",
   },
 
   {
-    link:
-      "https://slate.host/cindy/sw-sans?cid=bafkreihazsjq7hlho6ab6k7tise6ufv2ccat5gv5f3fz7yy4cluz3e356e",
+    link: "https://slate.host/cindy/sw-sans?cid=bafkreihazsjq7hlho6ab6k7tise6ufv2ccat5gv5f3fz7yy4cluz3e356e",
     name: "@cindy",
-    img:
-      "https://slate.textile.io/ipfs/bafkreihazsjq7hlho6ab6k7tise6ufv2ccat5gv5f3fz7yy4cluz3e356e",
+    img: "https://slate.textile.io/ipfs/bafkreihazsjq7hlho6ab6k7tise6ufv2ccat5gv5f3fz7yy4cluz3e356e",
   },
   {
-    link:
-      "https://slate.host/haris/archive?cid=bafkreigcdnhxnh4fp7g2xy2gp43umhjrqyzz2a2t3ovnmcabepwusx5ldi",
+    link: "https://slate.host/haris/archive?cid=bafkreigcdnhxnh4fp7g2xy2gp43umhjrqyzz2a2t3ovnmcabepwusx5ldi",
     name: "@haris",
-    img:
-      "https://slate.textile.io/ipfs/bafkreigcdnhxnh4fp7g2xy2gp43umhjrqyzz2a2t3ovnmcabepwusx5ldi",
+    img: "https://slate.textile.io/ipfs/bafkreigcdnhxnh4fp7g2xy2gp43umhjrqyzz2a2t3ovnmcabepwusx5ldi",
   },
   {
-    link:
-      "https://slate.host/guji/%E5%8C%97%E4%BA%AC%E7%9A%87%E5%9F%8E%E5%BB%BA%E7%AD%91%E8%A3%85%E9%A5%B0?cid=bafybeiceh32ka3l6nlxniziefaxqs44ib4i47pohdftjzvlbsoem3qk6ly",
+    link: "https://slate.host/guji/%E5%8C%97%E4%BA%AC%E7%9A%87%E5%9F%8E%E5%BB%BA%E7%AD%91%E8%A3%85%E9%A5%B0?cid=bafybeiceh32ka3l6nlxniziefaxqs44ib4i47pohdftjzvlbsoem3qk6ly",
     name: "@guji",
-    img:
-      "https://slate.textile.io/ipfs/bafybeiceh32ka3l6nlxniziefaxqs44ib4i47pohdftjzvlbsoem3qk6ly",
+    img: "https://slate.textile.io/ipfs/bafybeiceh32ka3l6nlxniziefaxqs44ib4i47pohdftjzvlbsoem3qk6ly",
   },
   {
-    link:
-      "https://slate.host/martina/reaction-gifs?cid=bafybeif344hukksxizwk2dhmp6xjybnbw6x62r23m6wju2btxpsk4yluki",
+    link: "https://slate.host/martina/reaction-gifs?cid=bafybeif344hukksxizwk2dhmp6xjybnbw6x62r23m6wju2btxpsk4yluki",
     name: "@martina",
-    img:
-      "https://slate.textile.io/ipfs/bafybeif344hukksxizwk2dhmp6xjybnbw6x62r23m6wju2btxpsk4yluki",
+    img: "https://slate.textile.io/ipfs/bafybeif344hukksxizwk2dhmp6xjybnbw6x62r23m6wju2btxpsk4yluki",
   },
 ];
 
@@ -173,8 +139,7 @@ const OBJECTPREVIEWS = [
     type: "Soundcloud",
     preview:
       "https://slate.textile.io/ipfs/bafkreic5z2j6kz4qn4zgcv2wakvgok7bgn2tdsrirrcbmcngbty3m4n7fi",
-    URL:
-      "https://slate.host/slate/objects?cid=bafybeicdrezbs4xtdgwmhef52fwu5dkw2bv3m6sbfbd7wikleszezufeci",
+    URL: "https://slate.host/slate/objects?cid=bafybeicdrezbs4xtdgwmhef52fwu5dkw2bv3m6sbfbd7wikleszezufeci",
   },
   {
     title: "zancan - Lushtemples",
@@ -187,8 +152,7 @@ const OBJECTPREVIEWS = [
     type: "hicetnunc.art",
     preview:
       "https://slate.textile.io/ipfs/bafkreia7ir22cbomueh6amuypurqyggqnxsbdirapljxgeoju7m656cvve",
-    URL:
-      "https://slate.host/slate/objects?cid=bafybeig5mukv6kzfcwphudok6wksjxkglfb2akvt3yzhnqcooj2juwegiu",
+    URL: "https://slate.host/slate/objects?cid=bafybeig5mukv6kzfcwphudok6wksjxkglfb2akvt3yzhnqcooj2juwegiu",
   },
   {
     title: "OP-Z Synthesizer",
@@ -196,8 +160,7 @@ const OBJECTPREVIEWS = [
     type: "JPEG",
     preview:
       "https://slate.textile.io/ipfs/bafkreiagkyoslopcxar5pt4vum4ngkbqnqzspa4kbeyltlxpsh7a6xb3mm",
-    URL:
-      "https://slate.host/slate/objects?cid=bafybeiaaqrbqdgytuk362qe7oezw5vvkue5yhmp5oxdxw76clvnvp7w2yu",
+    URL: "https://slate.host/slate/objects?cid=bafybeiaaqrbqdgytuk362qe7oezw5vvkue5yhmp5oxdxw76clvnvp7w2yu",
   },
   {
     title: "Hermann Hesse - Demian",
@@ -205,8 +168,7 @@ const OBJECTPREVIEWS = [
     type: "PDF",
     preview:
       "https://slate.textile.io/ipfs/bafkreierp2ddmptriabymjse2mu772hftl7zrl63akbthl42cl6yvsiddu",
-    URL:
-      "https://slate.host/slate/objects?cid=bafybeietqtoktbmkxlsfrhhcdodbjd7bixkjvrxxxjsy6s7tdqwuicxhw4",
+    URL: "https://slate.host/slate/objects?cid=bafybeietqtoktbmkxlsfrhhcdodbjd7bixkjvrxxxjsy6s7tdqwuicxhw4",
   },
   {
     title: "ASMR prime numbers",
@@ -219,8 +181,7 @@ const OBJECTPREVIEWS = [
     type: "Youtube",
     preview:
       "https://slate.textile.io/ipfs/bafkreiaars3ztdupanomdsy2o3ok6xr6gcjmwc2situnquggiz5x2xokgy",
-    URL:
-      "https://slate.host/slate/objects?cid=bafybeigaet3w3yvpchwup33tr3oyhpu3ckjnrbqq7a7kxoqwp3drzxsmvm",
+    URL: "https://slate.host/slate/objects?cid=bafybeigaet3w3yvpchwup33tr3oyhpu3ckjnrbqq7a7kxoqwp3drzxsmvm",
   },
   {
     title: "r/dostoevsky - Fyodor Dostoevsky",
@@ -233,8 +194,7 @@ const OBJECTPREVIEWS = [
     type: "Reddit",
     preview:
       "https://slate.textile.io/ipfs/bafybeiafyuacznehtudad5hxzhbri4snjucrsnna2nzjifocebazy6xkt4",
-    URL:
-      "https://slate.host/slate/objects?cid=bafybeidmxr5vebmqthxsxdy7w5laxb45y6rdg27vjhf5pauu2iyjng7b6e",
+    URL: "https://slate.host/slate/objects?cid=bafybeidmxr5vebmqthxsxdy7w5laxb45y6rdg27vjhf5pauu2iyjng7b6e",
   },
 ];
 
@@ -830,8 +790,7 @@ export default function IndexPage() {
   const title = `Slate`;
   const description = "Your personal search engine";
   const url = "https://slate.host/";
-  const image =
-    "https://slate.textile.io/ipfs/bafkreifww37ypduoi5pvj2cuikz7iycp7l5h7czke6lcboukkaqkoab3t4";
+  const image = `${Constants.gateways.ipfs}/bafkreifww37ypduoi5pvj2cuikz7iycp7l5h7czke6lcboukkaqkoab3t4`;
   const signInURL = "/_/auth";
   const discordURL = "https://discord.gg/NRsUjpCypr";
   const {
