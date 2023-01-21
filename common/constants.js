@@ -193,7 +193,7 @@ export const theme = {
 };
 
 export const gateways = {
-  ipfs: "https://gateway.estuary.tech/gw/ipfs",
+  ipfs: "https://api.estuary.tech/gw/ipfs",
 };
 
 export const hostname = "https://slate.host";

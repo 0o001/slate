@@ -19,17 +19,17 @@ const INTEGRATION = [
   {
     title: "Chrome",
     body: "Connect to your browser history and bookmarks.",
-    logo: "https://slate.textile.io/ipfs/bafkreiamdcnqxcga7dj4fur7nqd57pbey7s6znnj4o2zpbkmsydp6rspdy",
+    logo: `${Constants.gateways.ipfs}/bafkreiamdcnqxcga7dj4fur7nqd57pbey7s6znnj4o2zpbkmsydp6rspdy`,
   },
   {
     title: "Twitter",
     body: "Search your twitter bookmarks.",
-    logo: "https://slate.textile.io/ipfs/bafkreihtujowfnffw5jxvdo7gqazo4oy3q3q4u4z2jflx5ygmpaj7pgtnu",
+    logo: `${Constants.gateways.ipfs}/bafkreihtujowfnffw5jxvdo7gqazo4oy3q3q4u4z2jflx5ygmpaj7pgtnu`,
   },
   {
     title: "MetaMask",
     body: "Keep all of your NFTs in one place.",
-    logo: "https://slate.textile.io/ipfs/bafkreiecbn5pjuebdelsehul6sqmxs5kk74mijmo6ybts3hfg5tr2p4rti",
+    logo: `${Constants.gateways.ipfs}/bafkreiecbn5pjuebdelsehul6sqmxs5kk74mijmo6ybts3hfg5tr2p4rti`,
   },
   {
     title: "And more later",
@@ -56,74 +56,74 @@ const BANNER = [
   {
     link: "https://slate.host/tara/neon-genesis-evangelion?cid=bafybeib2zzeknjmih25wivzogzupd7atrdbaxpvmsxfgutrqymlyfc2dvi",
     name: "@tara",
-    img: "https://slate.textile.io/ipfs/bafybeib2zzeknjmih25wivzogzupd7atrdbaxpvmsxfgutrqymlyfc2dvi",
+    img: `${Constants.gateways.ipfs}/bafybeib2zzeknjmih25wivzogzupd7atrdbaxpvmsxfgutrqymlyfc2dvi`,
   },
   {
     link: "https://slate.host/biodivlibrary/the-mushroom-book?cid=bafybeigph7tfup3wb3truahl7sycaywx3unwa365jk4assrjjlzv6d7x3a",
     name: "@biodivlibrary",
-    img: "https://slate.textile.io/ipfs/bafybeigph7tfup3wb3truahl7sycaywx3unwa365jk4assrjjlzv6d7x3a",
+    img: `${Constants.gateways.ipfs}/bafybeigph7tfup3wb3truahl7sycaywx3unwa365jk4assrjjlzv6d7x3a`,
   },
   {
     link: "https://slate.host/jin/cryptovoxels-history?cid=bafybeiafrj3erh3rfqux4zqc7u2px3veqdppbtizq26p443utxunrkgonu",
     name: "@jin",
-    img: "https://slate.textile.io/ipfs/bafybeiafrj3erh3rfqux4zqc7u2px3veqdppbtizq26p443utxunrkgonu",
+    img: `${Constants.gateways.ipfs}/bafybeiafrj3erh3rfqux4zqc7u2px3veqdppbtizq26p443utxunrkgonu`,
   },
   {
     link: "https://slate.host/ng/numero?cid=bafybeibhhfgc4amvymoblaxcoe6glyyvaxhylzisl4ib2itcbhn3mrviou",
     name: "@ng",
-    img: "https://slate.textile.io/ipfs/bafybeibhhfgc4amvymoblaxcoe6glyyvaxhylzisl4ib2itcbhn3mrviou",
+    img: `${Constants.gateways.ipfs}/bafybeibhhfgc4amvymoblaxcoe6glyyvaxhylzisl4ib2itcbhn3mrviou`,
   },
   {
     link: "https://slate.host/thesimpsons/clips?cid=bafybeigce5klzr3vgzmlathvepuzhzhmwjc6bbvmsmcvu5eyisy6mnkx34",
     name: "@thesimpsons",
-    img: "https://slate.textile.io/ipfs/bafybeigce5klzr3vgzmlathvepuzhzhmwjc6bbvmsmcvu5eyisy6mnkx34",
+    img: `${Constants.gateways.ipfs}/bafybeigce5klzr3vgzmlathvepuzhzhmwjc6bbvmsmcvu5eyisy6mnkx34`,
   },
 
   {
     link: "https://slate.host/bitgraves/september?cid=bafybeiclkru6hwzw2ghvsyrbnaf67taxxhq2hbpcia2oqj5ufdggwhcbti",
     name: "@bitgraves",
-    img: "https://slate.textile.io/ipfs/bafybeiclkru6hwzw2ghvsyrbnaf67taxxhq2hbpcia2oqj5ufdggwhcbti",
+    img: `${Constants.gateways.ipfs}/bafybeiclkru6hwzw2ghvsyrbnaf67taxxhq2hbpcia2oqj5ufdggwhcbti`,
   },
   {
     link: "https://slate.host/nypl/japan-kimbei-kusakabe?cid=bafkreidqz6imwffq5hpkacmxnrffagzxx5usybpitt42yuzthe6uf4idlm",
     name: "@nypl",
-    img: "https://slate.textile.io/ipfs/bafkreidqz6imwffq5hpkacmxnrffagzxx5usybpitt42yuzthe6uf4idlm",
+    img: `${Constants.gateways.ipfs}/bafkreidqz6imwffq5hpkacmxnrffagzxx5usybpitt42yuzthe6uf4idlm`,
   },
   {
     link: "https://slate.host/atlas/cartography?cid=bafybeid2n55qb4thosrxlszhzi3nwiorswv7xi2d5ykbudp3ph5hc54baa",
     name: "@atlas",
-    img: "https://slate.textile.io/ipfs/bafybeid2n55qb4thosrxlszhzi3nwiorswv7xi2d5ykbudp3ph5hc54baa",
+    img: `${Constants.gateways.ipfs}/bafybeid2n55qb4thosrxlszhzi3nwiorswv7xi2d5ykbudp3ph5hc54baa`,
   },
   {
     link: "https://slate.host/museosabiertos/palais-de-glace-fotografia?cid=bafybeigrznzuqymmfligf6mhc7adh6r7iw5gotbrzstcqeyyybaklfguki",
     name: "@museosabiertos",
-    img: "https://slate.textile.io/ipfs/bafybeigrznzuqymmfligf6mhc7adh6r7iw5gotbrzstcqeyyybaklfguki",
+    img: `${Constants.gateways.ipfs}/bafybeigrznzuqymmfligf6mhc7adh6r7iw5gotbrzstcqeyyybaklfguki`,
   },
   {
     link: "https://slate.host/gndclouds/animation?cid=bafybeigh44l3uzsgv4hslpruxrr5s43olpj5llptmsafkemxbwlu4fbdc4",
     name: "@gndclouds",
-    img: "https://slate.textile.io/ipfs/bafybeigh44l3uzsgv4hslpruxrr5s43olpj5llptmsafkemxbwlu4fbdc4",
+    img: `${Constants.gateways.ipfs}/bafybeigh44l3uzsgv4hslpruxrr5s43olpj5llptmsafkemxbwlu4fbdc4`,
   },
 
   {
     link: "https://slate.host/cindy/sw-sans?cid=bafkreihazsjq7hlho6ab6k7tise6ufv2ccat5gv5f3fz7yy4cluz3e356e",
     name: "@cindy",
-    img: "https://slate.textile.io/ipfs/bafkreihazsjq7hlho6ab6k7tise6ufv2ccat5gv5f3fz7yy4cluz3e356e",
+    img: `${Constants.gateways.ipfs}/bafkreihazsjq7hlho6ab6k7tise6ufv2ccat5gv5f3fz7yy4cluz3e356e`,
   },
   {
     link: "https://slate.host/haris/archive?cid=bafkreigcdnhxnh4fp7g2xy2gp43umhjrqyzz2a2t3ovnmcabepwusx5ldi",
     name: "@haris",
-    img: "https://slate.textile.io/ipfs/bafkreigcdnhxnh4fp7g2xy2gp43umhjrqyzz2a2t3ovnmcabepwusx5ldi",
+    img: `${Constants.gateways.ipfs}/bafkreigcdnhxnh4fp7g2xy2gp43umhjrqyzz2a2t3ovnmcabepwusx5ldi`,
   },
   {
     link: "https://slate.host/guji/%E5%8C%97%E4%BA%AC%E7%9A%87%E5%9F%8E%E5%BB%BA%E7%AD%91%E8%A3%85%E9%A5%B0?cid=bafybeiceh32ka3l6nlxniziefaxqs44ib4i47pohdftjzvlbsoem3qk6ly",
     name: "@guji",
-    img: "https://slate.textile.io/ipfs/bafybeiceh32ka3l6nlxniziefaxqs44ib4i47pohdftjzvlbsoem3qk6ly",
+    img: `${Constants.gateways.ipfs}/bafybeiceh32ka3l6nlxniziefaxqs44ib4i47pohdftjzvlbsoem3qk6ly`,
   },
   {
     link: "https://slate.host/martina/reaction-gifs?cid=bafybeif344hukksxizwk2dhmp6xjybnbw6x62r23m6wju2btxpsk4yluki",
     name: "@martina",
-    img: "https://slate.textile.io/ipfs/bafybeif344hukksxizwk2dhmp6xjybnbw6x62r23m6wju2btxpsk4yluki",
+    img: `${Constants.gateways.ipfs}/bafybeif344hukksxizwk2dhmp6xjybnbw6x62r23m6wju2btxpsk4yluki`,
   },
 ];
 
@@ -133,12 +133,11 @@ const OBJECTPREVIEWS = [
     link: (
       <img
         style={{ height: 12, marginRight: 4 }}
-        src="https://slate.textile.io/ipfs/bafkreig6vbqgunqmja4vt6rrpojbtf24dnkgt2lxcvpl4x7gtnn7rqbp4a"
+        src={`${Constants.gateways.ipfs}/bafkreig6vbqgunqmja4vt6rrpojbtf24dnkgt2lxcvpl4x7gtnn7rqbp4a`}
       />
     ),
     type: "Soundcloud",
-    preview:
-      "https://slate.textile.io/ipfs/bafkreic5z2j6kz4qn4zgcv2wakvgok7bgn2tdsrirrcbmcngbty3m4n7fi",
+    preview: `${Constants.gateways.ipfs}/bafkreic5z2j6kz4qn4zgcv2wakvgok7bgn2tdsrirrcbmcngbty3m4n7fi`,
     URL: "https://slate.host/slate/objects?cid=bafybeicdrezbs4xtdgwmhef52fwu5dkw2bv3m6sbfbd7wikleszezufeci",
   },
   {
@@ -146,28 +145,25 @@ const OBJECTPREVIEWS = [
     link: (
       <img
         style={{ height: 12, marginRight: 4 }}
-        src="https://slate.textile.io/ipfs/bafkreiayzflrhnmknrbe6w6fyp6anepb2sdik23g7zid4gadmtpjizpnuu"
+        src={`${Constants.gateways.ipfs}/bafkreiayzflrhnmknrbe6w6fyp6anepb2sdik23g7zid4gadmtpjizpnuu`}
       />
     ),
     type: "hicetnunc.art",
-    preview:
-      "https://slate.textile.io/ipfs/bafkreia7ir22cbomueh6amuypurqyggqnxsbdirapljxgeoju7m656cvve",
+    preview: `${Constants.gateways.ipfs}/bafkreia7ir22cbomueh6amuypurqyggqnxsbdirapljxgeoju7m656cvve`,
     URL: "https://slate.host/slate/objects?cid=bafybeig5mukv6kzfcwphudok6wksjxkglfb2akvt3yzhnqcooj2juwegiu",
   },
   {
     title: "OP-Z Synthesizer",
     link: <SVG.Link height={12} style={{ marginRight: 4 }} />,
     type: "JPEG",
-    preview:
-      "https://slate.textile.io/ipfs/bafkreiagkyoslopcxar5pt4vum4ngkbqnqzspa4kbeyltlxpsh7a6xb3mm",
+    preview: `${Constants.gateways.ipfs}/bafkreiagkyoslopcxar5pt4vum4ngkbqnqzspa4kbeyltlxpsh7a6xb3mm`,
     URL: "https://slate.host/slate/objects?cid=bafybeiaaqrbqdgytuk362qe7oezw5vvkue5yhmp5oxdxw76clvnvp7w2yu",
   },
   {
     title: "Hermann Hesse - Demian",
     link: <SVG.Link height={12} style={{ marginRight: 4 }} />,
     type: "PDF",
-    preview:
-      "https://slate.textile.io/ipfs/bafkreierp2ddmptriabymjse2mu772hftl7zrl63akbthl42cl6yvsiddu",
+    preview: `${Constants.gateways.ipfs}/bafkreierp2ddmptriabymjse2mu772hftl7zrl63akbthl42cl6yvsiddu`,
     URL: "https://slate.host/slate/objects?cid=bafybeietqtoktbmkxlsfrhhcdodbjd7bixkjvrxxxjsy6s7tdqwuicxhw4",
   },
   {
@@ -175,12 +171,11 @@ const OBJECTPREVIEWS = [
     link: (
       <img
         style={{ height: 12, marginRight: 4 }}
-        src="https://slate.textile.io/ipfs/bafkreieb7zmiss2rlnlhhkwbgxlc7szmzsq3yars7ujjflhwq6it2low5m"
+        src={`${Constants.gateways.ipfs}/bafkreieb7zmiss2rlnlhhkwbgxlc7szmzsq3yars7ujjflhwq6it2low5m`}
       />
     ),
     type: "Youtube",
-    preview:
-      "https://slate.textile.io/ipfs/bafkreiaars3ztdupanomdsy2o3ok6xr6gcjmwc2situnquggiz5x2xokgy",
+    preview: `${Constants.gateways.ipfs}/bafkreiaars3ztdupanomdsy2o3ok6xr6gcjmwc2situnquggiz5x2xokgy`,
     URL: "https://slate.host/slate/objects?cid=bafybeigaet3w3yvpchwup33tr3oyhpu3ckjnrbqq7a7kxoqwp3drzxsmvm",
   },
   {
@@ -188,12 +183,11 @@ const OBJECTPREVIEWS = [
     link: (
       <img
         style={{ height: 12, marginRight: 4 }}
-        src="https://slate.textile.io/ipfs/bafkreigmnfr6bnermvxegkrfg2lfy7pzifopbtnttql4jn2j33vzopw4e4"
+        src={`${Constants.gateways.ipfs}/bafkreigmnfr6bnermvxegkrfg2lfy7pzifopbtnttql4jn2j33vzopw4e4`}
       />
     ),
     type: "Reddit",
-    preview:
-      "https://slate.textile.io/ipfs/bafybeiafyuacznehtudad5hxzhbri4snjucrsnna2nzjifocebazy6xkt4",
+    preview: `${Constants.gateways.ipfs}/bafybeiafyuacznehtudad5hxzhbri4snjucrsnna2nzjifocebazy6xkt4`,
     URL: "https://slate.host/slate/objects?cid=bafybeidmxr5vebmqthxsxdy7w5laxb45y6rdg27vjhf5pauu2iyjng7b6e",
   },
 ];
@@ -835,7 +829,7 @@ export default function IndexPage() {
           </div>
           <img
             css={STYLES_IMG_HERO}
-            src="https://slate.textile.io/ipfs/bafybeiczylx6qu7kwdpy6ydejki6c2cwrniyvzye2gkjxgknm2czkkf7hy"
+            src={`${Constants.gateways.ipfs}/bafybeiczylx6qu7kwdpy6ydejki6c2cwrniyvzye2gkjxgknm2czkkf7hy`}
           />
         </div>
 
@@ -883,12 +877,12 @@ export default function IndexPage() {
               <img
                 css={STYLES_FEATURE_IMG}
                 style={{ width: "90%", margin: "20% 24px", border: "6px solid #000000" }}
-                src="https://slate.textile.io/ipfs/bafybeihsrxgjk5ax4wzbnfnq2kyg4djylrvpsbzrhitvnmcjixupbk5qjm"
+                src={`${Constants.gateways.ipfs}/bafybeihsrxgjk5ax4wzbnfnq2kyg4djylrvpsbzrhitvnmcjixupbk5qjm`}
               />
               <img
                 css={STYLES_FEATURE_IMG}
                 style={{ width: "70%", margin: "-95% auto 48px auto" }}
-                src="https://slate.textile.io/ipfs/bafkreievp6angjfzf5awdnqeog4rr73ukz24xnlpdmajfdp2lfstzlkr24"
+                src={`${Constants.gateways.ipfs}/bafkreievp6angjfzf5awdnqeog4rr73ukz24xnlpdmajfdp2lfstzlkr24`}
               />
             </div>
             <div css={STYLES_FEATURE_CARD}>
@@ -901,7 +895,7 @@ export default function IndexPage() {
               <img
                 css={STYLES_FEATURE_IMG}
                 style={{ margin: "0 0 0 20px", width: "120%" }}
-                src="https://slate.textile.io/ipfs/bafkreidllwo5j6uyx75alz5amuhrrs5uylw3slgowofy2rx7yn4rttakiq"
+                src={`${Constants.gateways.ipfs}/bafkreidllwo5j6uyx75alz5amuhrrs5uylw3slgowofy2rx7yn4rttakiq`}
               />
             </div>
           </div>
@@ -958,12 +952,12 @@ export default function IndexPage() {
               <img
                 css={STYLES_FEATURE_IMG}
                 style={{ width: "90%", margin: "20% 24px", border: "6px solid #000000" }}
-                src="https://slate.textile.io/ipfs/bafybeia7eclwk2zk6jv2agfwjj4fs57yhxz7vgwchaa6w34wf7xwohq7ky"
+                src={`${Constants.gateways.ipfs}/bafybeia7eclwk2zk6jv2agfwjj4fs57yhxz7vgwchaa6w34wf7xwohq7ky`}
               />
               <img
                 css={STYLES_FEATURE_IMG}
                 style={{ width: "70%", margin: "-100% auto 48px auto" }}
-                src="https://slate.textile.io/ipfs/bafkreiaopgorx45iriyjzl2fcdygt3fma2s47m6z7vi323pbpdmhx3m64u"
+                src={`${Constants.gateways.ipfs}/bafkreiaopgorx45iriyjzl2fcdygt3fma2s47m6z7vi323pbpdmhx3m64u`}
               />
             </div>
             <div css={STYLES_FEATURE_CARD}>
@@ -977,7 +971,7 @@ export default function IndexPage() {
               <img
                 css={STYLES_FEATURE_IMG}
                 style={{ margin: "0 0 0 20px", width: "120%" }}
-                src="https://slate.textile.io/ipfs/bafybeiffx4fuhmne56yul3z24w6sh5ciumgy6dymdf6m3izdr6dknakhzy"
+                src={`${Constants.gateways.ipfs}/bafybeiffx4fuhmne56yul3z24w6sh5ciumgy6dymdf6m3izdr6dknakhzy`}
               />
             </div>
           </div>
